@@ -1,0 +1,110 @@
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+    color: #111;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #004d4d;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #009999;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #004d4d;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.caja {
+    width: 80%;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.caja1 {
+    border-top: 6px dotted #d9534f;
+    border-right: 6px dashed #337ab7;
+    border-bottom: 6px double #f0ad4e;
+    border-left: 6px groove #5cb85c;
+}
+
+.caja2 {
+    border-top: 6px solid #5e2ca5;
+    border-right: 8px double #cc0000;
+    border-bottom: 6px inset #228b22;
+    border-left: 6px outset #ff8c00;
+}
+
+.caja3 .caja-exterior {
+    border-top: 6px dotted #d9534f;
+    border-right: 6px dashed #337ab7;
+    border-bottom: 6px double #f0ad4e;
+    border-left: 6px groove #5cb85c;
+}
+
+.caja3 .caja-interior {
+    border-top: 6px solid #5e2ca5;
+    border-right: 8px double #cc0000;
+    border-bottom: 6px inset #228b22;
+    border-left: 6px outset #ff8c00;
+    padding: 25px;
+    margin: 30px;
+    background: #ffffff;
+}
+
+.caja4 {
+    width: 80%;
+    margin: 25px auto;
+    padding: 40px;
+    background: white;
+    border: 5px solid #000;
+    box-sizing: border-box;
+}
+
+.caja4 .efecto-droste {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    border: 4px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja4 .efecto-droste .nivel-uno {
+    width: 80%;
+    height: 80%;
+    border: 4px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja4 .efecto-droste .nivel-uno .nivel-dos {
+    width: 70%;
+    height: 70%;
+    border: 4px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja4 .efecto-droste .nivel-uno .nivel-dos .nivel-tres {
+    width: 60%;
+    height: 60%;
+    border: 4px solid #000;
+}
+
+
+
+
